@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+}
+@font-face {
+    font-family: "AmaticSCRegular";
+    src: url("../fonts/AmaticSCRegular.ttf");
+}
+img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 250px;
+}
+.main_bg{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,119,1) 23%, rgba(171,9,245,1) 74%, rgba(123,0,254,1) 100%);
+    height: 587px;
+}
+.header{
+    background-color: rgb(216, 69, 245);
+    width: 100%;
+    height: 100px;
+}
+.font_header{
+    font-family: 'Amatic SC', sans-serif;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 116px;
+}
+.font_footer{
+    font-family: 'Amatic SC', sans-serif;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.card_bg{
+    background-color: rgb(0, 192, 0);
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 15px;
+    width: 400px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+.card{
+ padding: 20px;
+ float: left;
+ margin-left: 50px;
+ margin-top: 100px;
+}
+
